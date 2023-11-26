@@ -1,0 +1,526 @@
+2021.09: Pulling from syword/python3-pytorch
+33847f680f63: Pulling fs layer
+f5a80bcd1413: Pulling fs layer
+8d0d14d1334a: Pulling fs layer
+3af43f1a6353: Pulling fs layer
+9f0da541b5b8: Pulling fs layer
+9126f0eb4ee8: Pulling fs layer
+6f94815e363e: Pulling fs layer
+9e67cda5ed09: Pulling fs layer
+bcb1cf841baa: Pulling fs layer
+4aec0f14aae2: Pulling fs layer
+aaf99aea6904: Pulling fs layer
+d9628d08d965: Pulling fs layer
+ca1a067b6e9a: Pulling fs layer
+b5fd811e4220: Pulling fs layer
+25b38087eb95: Pulling fs layer
+f9a8d06f6c75: Pulling fs layer
+8042ce18f02b: Pulling fs layer
+37d79840b128: Pulling fs layer
+ac3e0d247167: Pulling fs layer
+62b50587f423: Pulling fs layer
+f2cbcbe7e354: Pulling fs layer
+8e614e741ce5: Pulling fs layer
+685af2ff964f: Pulling fs layer
+5f618edfa858: Pulling fs layer
+3af43f1a6353: Waiting
+43b0f350bce7: Pulling fs layer
+9f0da541b5b8: Waiting
+b5fd811e4220: Waiting
+9126f0eb4ee8: Waiting
+f2cbcbe7e354: Waiting
+d9628d08d965: Waiting
+25b38087eb95: Waiting
+4aec0f14aae2: Waiting
+f9a8d06f6c75: Waiting
+5f618edfa858: Waiting
+43b0f350bce7: Waiting
+aaf99aea6904: Waiting
+8e614e741ce5: Waiting
+6f94815e363e: Waiting
+37d79840b128: Waiting
+8042ce18f02b: Waiting
+685af2ff964f: Waiting
+bcb1cf841baa: Waiting
+9e67cda5ed09: Waiting
+62b50587f423: Waiting
+ac3e0d247167: Waiting
+f5a80bcd1413: Verifying Checksum
+f5a80bcd1413: Download complete
+8d0d14d1334a: Verifying Checksum
+8d0d14d1334a: Download complete
+3af43f1a6353: Verifying Checksum
+3af43f1a6353: Download complete
+33847f680f63: Verifying Checksum
+33847f680f63: Download complete
+9126f0eb4ee8: Verifying Checksum
+9126f0eb4ee8: Download complete
+33847f680f63: Pull complete
+9e67cda5ed09: Verifying Checksum
+9e67cda5ed09: Download complete
+bcb1cf841baa: Verifying Checksum
+bcb1cf841baa: Download complete
+4aec0f14aae2: Download complete
+9f0da541b5b8: Verifying Checksum
+9f0da541b5b8: Download complete
+f5a80bcd1413: Pull complete
+8d0d14d1334a: Pull complete
+3af43f1a6353: Pull complete
+6f94815e363e: Verifying Checksum
+6f94815e363e: Download complete
+ca1a067b6e9a: Verifying Checksum
+ca1a067b6e9a: Download complete
+b5fd811e4220: Verifying Checksum
+b5fd811e4220: Download complete
+25b38087eb95: Verifying Checksum
+25b38087eb95: Download complete
+f9a8d06f6c75: Download complete
+8042ce18f02b: Download complete
+37d79840b128: Verifying Checksum
+37d79840b128: Download complete
+9f0da541b5b8: Pull complete
+ac3e0d247167: Download complete
+aaf99aea6904: Verifying Checksum
+aaf99aea6904: Download complete
+9126f0eb4ee8: Pull complete
+f2cbcbe7e354: Download complete
+d9628d08d965: Verifying Checksum
+d9628d08d965: Download complete
+8e614e741ce5: Verifying Checksum
+8e614e741ce5: Download complete
+685af2ff964f: Verifying Checksum
+685af2ff964f: Download complete
+5f618edfa858: Verifying Checksum
+5f618edfa858: Download complete
+43b0f350bce7: Verifying Checksum
+43b0f350bce7: Download complete
+6f94815e363e: Pull complete
+9e67cda5ed09: Pull complete
+bcb1cf841baa: Pull complete
+4aec0f14aae2: Pull complete
+aaf99aea6904: Pull complete
+d9628d08d965: Pull complete
+ca1a067b6e9a: Pull complete
+b5fd811e4220: Pull complete
+25b38087eb95: Pull complete
+f9a8d06f6c75: Pull complete
+8042ce18f02b: Pull complete
+37d79840b128: Pull complete
+ac3e0d247167: Pull complete
+62b50587f423: Verifying Checksum
+62b50587f423: Download complete
+62b50587f423: Pull complete
+f2cbcbe7e354: Pull complete
+8e614e741ce5: Pull complete
+685af2ff964f: Pull complete
+5f618edfa858: Pull complete
+43b0f350bce7: Pull complete
+Digest: sha256:94a36185a4cdc75b9298302e3deb78f766aa9c2ac9a71ed32bef131841e538cf
+Status: Downloaded newer image for syword/python3-pytorch:2021.09
+docker.io/syword/python3-pytorch:2021.09
+Traceback (most recent call last):
+  File "/my-projects/Projects/PM25_Speices_DL_2023/code/Data_Processing/Get_CEDS_Anthro_Emission_Input/main.py", line 13, in <module>
+YEAR: 1998, BC
+YEAR: 1998, OC
+YEAR: 1998, SO2
+YEAR: 1998, NO
+YEAR: 1998, N2O
+YEAR: 1998, NH3
+YEAR: 1998, NMVOC
+YEAR: 1998, ALD2
+YEAR: 1998, ALK4_butanes
+YEAR: 1998, ALK4_hexanes
+YEAR: 1998, ALK4_pentanes
+YEAR: 1998, BENZ
+YEAR: 1998, C2H2
+YEAR: 1998, C2H4
+YEAR: 1998, C2H6
+YEAR: 1998, C3H8
+YEAR: 1998, CH2O
+YEAR: 1998, CH4
+YEAR: 1998, HCOOH
+YEAR: 1999, BC
+YEAR: 1999, OC
+YEAR: 1999, SO2
+YEAR: 1999, NO
+YEAR: 1999, N2O
+YEAR: 1999, NH3
+YEAR: 1999, NMVOC
+YEAR: 1999, ALD2
+YEAR: 1999, ALK4_butanes
+YEAR: 1999, ALK4_hexanes
+YEAR: 1999, ALK4_pentanes
+YEAR: 1999, BENZ
+YEAR: 1999, C2H2
+YEAR: 1999, C2H4
+YEAR: 1999, C2H6
+YEAR: 1999, C3H8
+YEAR: 1999, CH2O
+YEAR: 1999, CH4
+YEAR: 1999, HCOOH
+YEAR: 2000, BC
+YEAR: 2000, OC
+YEAR: 2000, SO2
+YEAR: 2000, NO
+YEAR: 2000, N2O
+YEAR: 2000, NH3
+YEAR: 2000, NMVOC
+YEAR: 2000, ALD2
+YEAR: 2000, ALK4_butanes
+YEAR: 2000, ALK4_hexanes
+YEAR: 2000, ALK4_pentanes
+YEAR: 2000, BENZ
+YEAR: 2000, C2H2
+YEAR: 2000, C2H4
+YEAR: 2000, C2H6
+YEAR: 2000, C3H8
+YEAR: 2000, CH2O
+YEAR: 2000, CH4
+YEAR: 2000, HCOOH
+YEAR: 2001, BC
+YEAR: 2001, OC
+YEAR: 2001, SO2
+YEAR: 2001, NO
+YEAR: 2001, N2O
+YEAR: 2001, NH3
+YEAR: 2001, NMVOC
+YEAR: 2001, ALD2
+YEAR: 2001, ALK4_butanes
+YEAR: 2001, ALK4_hexanes
+YEAR: 2001, ALK4_pentanes
+YEAR: 2001, BENZ
+YEAR: 2001, C2H2
+YEAR: 2001, C2H4
+YEAR: 2001, C2H6
+YEAR: 2001, C3H8
+YEAR: 2001, CH2O
+YEAR: 2001, CH4
+YEAR: 2001, HCOOH
+YEAR: 2002, BC
+YEAR: 2002, OC
+YEAR: 2002, SO2
+YEAR: 2002, NO
+YEAR: 2002, N2O
+YEAR: 2002, NH3
+YEAR: 2002, NMVOC
+YEAR: 2002, ALD2
+YEAR: 2002, ALK4_butanes
+YEAR: 2002, ALK4_hexanes
+YEAR: 2002, ALK4_pentanes
+YEAR: 2002, BENZ
+YEAR: 2002, C2H2
+YEAR: 2002, C2H4
+YEAR: 2002, C2H6
+YEAR: 2002, C3H8
+YEAR: 2002, CH2O
+YEAR: 2002, CH4
+YEAR: 2002, HCOOH
+YEAR: 2003, BC
+YEAR: 2003, OC
+YEAR: 2003, SO2
+YEAR: 2003, NO
+YEAR: 2003, N2O
+YEAR: 2003, NH3
+YEAR: 2003, NMVOC
+YEAR: 2003, ALD2
+YEAR: 2003, ALK4_butanes
+YEAR: 2003, ALK4_hexanes
+YEAR: 2003, ALK4_pentanes
+YEAR: 2003, BENZ
+YEAR: 2003, C2H2
+YEAR: 2003, C2H4
+YEAR: 2003, C2H6
+YEAR: 2003, C3H8
+YEAR: 2003, CH2O
+YEAR: 2003, CH4
+YEAR: 2003, HCOOH
+YEAR: 2004, BC
+YEAR: 2004, OC
+YEAR: 2004, SO2
+YEAR: 2004, NO
+YEAR: 2004, N2O
+YEAR: 2004, NH3
+YEAR: 2004, NMVOC
+YEAR: 2004, ALD2
+YEAR: 2004, ALK4_butanes
+YEAR: 2004, ALK4_hexanes
+YEAR: 2004, ALK4_pentanes
+YEAR: 2004, BENZ
+YEAR: 2004, C2H2
+YEAR: 2004, C2H4
+YEAR: 2004, C2H6
+YEAR: 2004, C3H8
+YEAR: 2004, CH2O
+YEAR: 2004, CH4
+YEAR: 2004, HCOOH
+YEAR: 2005, BC
+YEAR: 2005, OC
+YEAR: 2005, SO2
+YEAR: 2005, NO
+YEAR: 2005, N2O
+YEAR: 2005, NH3
+YEAR: 2005, NMVOC
+YEAR: 2005, ALD2
+YEAR: 2005, ALK4_butanes
+YEAR: 2005, ALK4_hexanes
+YEAR: 2005, ALK4_pentanes
+YEAR: 2005, BENZ
+YEAR: 2005, C2H2
+YEAR: 2005, C2H4
+YEAR: 2005, C2H6
+YEAR: 2005, C3H8
+YEAR: 2005, CH2O
+YEAR: 2005, CH4
+YEAR: 2005, HCOOH
+YEAR: 2006, BC
+YEAR: 2006, OC
+YEAR: 2006, SO2
+YEAR: 2006, NO
+YEAR: 2006, N2O
+YEAR: 2006, NH3
+YEAR: 2006, NMVOC
+YEAR: 2006, ALD2
+YEAR: 2006, ALK4_butanes
+YEAR: 2006, ALK4_hexanes
+YEAR: 2006, ALK4_pentanes
+YEAR: 2006, BENZ
+YEAR: 2006, C2H2
+YEAR: 2006, C2H4
+YEAR: 2006, C2H6
+YEAR: 2006, C3H8
+YEAR: 2006, CH2O
+YEAR: 2006, CH4
+YEAR: 2006, HCOOH
+YEAR: 2007, BC
+YEAR: 2007, OC
+YEAR: 2007, SO2
+YEAR: 2007, NO
+YEAR: 2007, N2O
+YEAR: 2007, NH3
+YEAR: 2007, NMVOC
+YEAR: 2007, ALD2
+YEAR: 2007, ALK4_butanes
+YEAR: 2007, ALK4_hexanes
+YEAR: 2007, ALK4_pentanes
+YEAR: 2007, BENZ
+YEAR: 2007, C2H2
+YEAR: 2007, C2H4
+YEAR: 2007, C2H6
+YEAR: 2007, C3H8
+YEAR: 2007, CH2O
+YEAR: 2007, CH4
+YEAR: 2007, HCOOH
+YEAR: 2008, BC
+YEAR: 2008, OC
+YEAR: 2008, SO2
+YEAR: 2008, NO
+YEAR: 2008, N2O
+YEAR: 2008, NH3
+YEAR: 2008, NMVOC
+YEAR: 2008, ALD2
+YEAR: 2008, ALK4_butanes
+YEAR: 2008, ALK4_hexanes
+YEAR: 2008, ALK4_pentanes
+YEAR: 2008, BENZ
+YEAR: 2008, C2H2
+YEAR: 2008, C2H4
+YEAR: 2008, C2H6
+YEAR: 2008, C3H8
+YEAR: 2008, CH2O
+YEAR: 2008, CH4
+YEAR: 2008, HCOOH
+YEAR: 2009, BC
+YEAR: 2009, OC
+YEAR: 2009, SO2
+YEAR: 2009, NO
+YEAR: 2009, N2O
+YEAR: 2009, NH3
+YEAR: 2009, NMVOC
+YEAR: 2009, ALD2
+YEAR: 2009, ALK4_butanes
+YEAR: 2009, ALK4_hexanes
+YEAR: 2009, ALK4_pentanes
+YEAR: 2009, BENZ
+YEAR: 2009, C2H2
+YEAR: 2009, C2H4
+YEAR: 2009, C2H6
+YEAR: 2009, C3H8
+YEAR: 2009, CH2O
+YEAR: 2009, CH4
+YEAR: 2009, HCOOH
+YEAR: 2010, BC
+YEAR: 2010, OC
+YEAR: 2010, SO2
+YEAR: 2010, NO
+YEAR: 2010, N2O
+YEAR: 2010, NH3
+YEAR: 2010, NMVOC
+YEAR: 2010, ALD2
+YEAR: 2010, ALK4_butanes
+YEAR: 2010, ALK4_hexanes
+YEAR: 2010, ALK4_pentanes
+YEAR: 2010, BENZ
+YEAR: 2010, C2H2
+YEAR: 2010, C2H4
+YEAR: 2010, C2H6
+YEAR: 2010, C3H8
+YEAR: 2010, CH2O
+YEAR: 2010, CH4
+YEAR: 2010, HCOOH
+YEAR: 2011, BC
+YEAR: 2011, OC
+YEAR: 2011, SO2
+YEAR: 2011, NO
+YEAR: 2011, N2O
+YEAR: 2011, NH3
+YEAR: 2011, NMVOC
+YEAR: 2011, ALD2
+YEAR: 2011, ALK4_butanes
+YEAR: 2011, ALK4_hexanes
+YEAR: 2011, ALK4_pentanes
+YEAR: 2011, BENZ
+YEAR: 2011, C2H2
+YEAR: 2011, C2H4
+YEAR: 2011, C2H6
+YEAR: 2011, C3H8
+YEAR: 2011, CH2O
+YEAR: 2011, CH4
+YEAR: 2011, HCOOH
+YEAR: 2012, BC
+YEAR: 2012, OC
+YEAR: 2012, SO2
+YEAR: 2012, NO
+YEAR: 2012, N2O
+YEAR: 2012, NH3
+YEAR: 2012, NMVOC
+YEAR: 2012, ALD2
+YEAR: 2012, ALK4_butanes
+YEAR: 2012, ALK4_hexanes
+YEAR: 2012, ALK4_pentanes
+YEAR: 2012, BENZ
+YEAR: 2012, C2H2
+YEAR: 2012, C2H4
+YEAR: 2012, C2H6
+YEAR: 2012, C3H8
+YEAR: 2012, CH2O
+YEAR: 2012, CH4
+YEAR: 2012, HCOOH
+YEAR: 2013, BC
+YEAR: 2013, OC
+YEAR: 2013, SO2
+YEAR: 2013, NO
+YEAR: 2013, N2O
+YEAR: 2013, NH3
+YEAR: 2013, NMVOC
+YEAR: 2013, ALD2
+YEAR: 2013, ALK4_butanes
+YEAR: 2013, ALK4_hexanes
+YEAR: 2013, ALK4_pentanes
+YEAR: 2013, BENZ
+YEAR: 2013, C2H2
+YEAR: 2013, C2H4
+YEAR: 2013, C2H6
+YEAR: 2013, C3H8
+YEAR: 2013, CH2O
+YEAR: 2013, CH4
+YEAR: 2013, HCOOH
+YEAR: 2014, BC
+YEAR: 2014, OC
+YEAR: 2014, SO2
+YEAR: 2014, NO
+YEAR: 2014, N2O
+YEAR: 2014, NH3
+YEAR: 2014, NMVOC
+YEAR: 2014, ALD2
+YEAR: 2014, ALK4_butanes
+YEAR: 2014, ALK4_hexanes
+YEAR: 2014, ALK4_pentanes
+YEAR: 2014, BENZ
+YEAR: 2014, C2H2
+YEAR: 2014, C2H4
+YEAR: 2014, C2H6
+YEAR: 2014, C3H8
+YEAR: 2014, CH2O
+YEAR: 2014, CH4
+YEAR: 2014, HCOOH
+YEAR: 2015, BC
+YEAR: 2015, OC
+YEAR: 2015, SO2
+YEAR: 2015, NO
+YEAR: 2015, N2O
+YEAR: 2015, NH3
+YEAR: 2015, NMVOC
+YEAR: 2015, ALD2
+YEAR: 2015, ALK4_butanes
+YEAR: 2015, ALK4_hexanes
+YEAR: 2015, ALK4_pentanes
+YEAR: 2015, BENZ
+YEAR: 2015, C2H2
+YEAR: 2015, C2H4
+YEAR: 2015, C2H6
+YEAR: 2015, C3H8
+YEAR: 2015, CH2O
+YEAR: 2015, CH4
+YEAR: 2015, HCOOH
+YEAR: 2016, BC
+YEAR: 2016, OC
+YEAR: 2016, SO2
+YEAR: 2016, NO
+YEAR: 2016, N2O
+YEAR: 2016, NH3
+YEAR: 2016, NMVOC
+YEAR: 2016, ALD2
+YEAR: 2016, ALK4_butanes
+YEAR: 2016, ALK4_hexanes
+YEAR: 2016, ALK4_pentanes
+YEAR: 2016, BENZ
+YEAR: 2016, C2H2
+YEAR: 2016, C2H4
+YEAR: 2016, C2H6
+YEAR: 2016, C3H8
+YEAR: 2016, CH2O
+YEAR: 2016, CH4
+YEAR: 2016, HCOOH
+YEAR: 2017, BC
+YEAR: 2017, OC
+YEAR: 2017, SO2
+YEAR: 2017, NO
+YEAR: 2017, N2O
+YEAR: 2017, NH3
+YEAR: 2017, NMVOC
+YEAR: 2017, ALD2
+YEAR: 2017, ALK4_butanes
+YEAR: 2017, ALK4_hexanes
+YEAR: 2017, ALK4_pentanes
+YEAR: 2017, BENZ
+YEAR: 2017, C2H2
+YEAR: 2017, C2H4
+YEAR: 2017, C2H6
+YEAR: 2017, C3H8
+YEAR: 2017, CH2O
+YEAR: 2017, CH4
+YEAR: 2017, HCOOH
+YEAR: 2018, BC
+YEAR: 2018, OC
+YEAR: 2018, SO2
+YEAR: 2018, NO
+YEAR: 2018, N2O
+YEAR: 2018, NH3
+YEAR: 2018, NMVOC
+YEAR: 2018, ALD2
+YEAR: 2018, ALK4_butanes
+YEAR: 2018, ALK4_hexanes
+YEAR: 2018, ALK4_pentanes
+YEAR: 2018, BENZ
+YEAR: 2018, C2H2
+YEAR: 2018, C2H4
+    interpolate_anthro_emi_mapdata(YYYY=YYYY,nametags=nametags,Area='NA')
+  File "/my-projects/Projects/PM25_Speices_DL_2023/code/Data_Processing/Get_CEDS_Anthro_Emission_Input/CEDSAnthroEmissions_pkg/Assemble_Func.py", line 15, in interpolate_anthro_emi_mapdata
+    interpolate_anthro_emi_map(GeoLAT=GEOLAT,GeoLON=GEOLON,lat_ceil_array=lat_ceil_array,lat_floor_array=lat_floor_array,lon_ceil_array=lon_ceil_array,lon_floor_array=lon_floor_array,
+  File "/my-projects/Projects/PM25_Speices_DL_2023/code/Data_Processing/Get_CEDS_Anthro_Emission_Input/CEDSAnthroEmissions_pkg/data_func.py", line 35, in interpolate_anthro_emi_map
+    Cxcyc,Cxcyf,Cxfyc,Cxfyf = get_Concentration4Interpolation(init_mapdata=init_total_emi[imonth,:,:],lat_ceil_array=lat_ceil_array,lat_floor_array=lat_floor_array,
+  File "/my-projects/Projects/PM25_Speices_DL_2023/code/Data_Processing/Get_CEDS_Anthro_Emission_Input/CEDSAnthroEmissions_pkg/data_func.py", line 20, in get_Concentration4Interpolation
+    Cxfyf = init_mapdata[lat_floor_array[ix],lon_floor_array[:]]
+  File "/opt/conda/lib/python3.9/site-packages/numpy/ma/core.py", line 3220, in __getitem__
+    dout = self.data[indx]
+KeyboardInterrupt
