@@ -1,0 +1,24 @@
+#!/bin/bash
+#BSUB -q rvmartin
+#BSUB -n 8
+#BSUB -W 168:00
+#BSUB -R "rusage[mem=300GB] span[ptile=72] "
+#BSUB -a 'docker(syword/python3-pytorch:2021.09)'
+#BSUB -J  "OM"
+#BSUB -N
+#BSUB -G compute-rvmartin
+#BSUB -g /s.siyuan/CV
+#BSUB -u s.siyuan@wustl.edu
+#BSUB -o job_output/job-%J-output.txt
+
+# Set up runtime environment
+
+. /opt/conda/bin/activate
+
+# Run my python codes   
+ 
+cd /my-projects/Projects/PM25_Speices_DL_2023/code/Data_Processing/Get_GEOSChem_Input    # cd into run directory
+python3 main.py --Tracer 'OM' --YEAR '1998' '1999' '2000' '2001' '2002' '2003' '2004' '2005' '2006' '2007' '2008' '2009' '2010' '2011' '2012' '2013' '2014' '2015' '2016' '2017' '2018' '2019' '2020' '2021' '2022' --MONTH '01' '02' '03' '04' '05' '06' '07' '08' '09' '10' '11' '12' --START_NUMBER_OF_MONTHS 0 
+
+
+
