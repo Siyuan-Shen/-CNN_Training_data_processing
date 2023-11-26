@@ -1,0 +1,10 @@
+2021.09: Pulling from syword/python3-pytorch
+Digest: sha256:94a36185a4cdc75b9298302e3deb78f766aa9c2ac9a71ed32bef131841e538cf
+Status: Image is up to date for syword/python3-pytorch:2021.09
+docker.io/syword/python3-pytorch:2021.09
+Traceback (most recent call last):
+  File "/my-projects/Projects/PM25_Speices_DL_2023/code/Data_Processing/derive_TrainingDatasets/main.py", line 20, in <module>
+    derive_TrainingDatasets(species=species,channel_names=channel_names,width=11, height=11, special_name = special_name,YEAR=YEAR)
+  File "/my-projects/Projects/PM25_Speices_DL_2023/code/Data_Processing/derive_TrainingDatasets/Convert_TrainingData_pkg/Assemble_Func.py", line 33, in derive_TrainingDatasets
+    nc_createDimensions(outfile=outfile,species=species,nametags=channel_names,start_YYYYMM=start_YYYYMM,end_YYYYMM=end_YYYYMM,sitesnumber=sites_number,
+TypeError: nc_createDimensions() missing 2 required positional arguments: 'start_YYYY' and 'end_YYYY'

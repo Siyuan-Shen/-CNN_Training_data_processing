@@ -1,0 +1,12 @@
+2021.09: Pulling from syword/python3-pytorch
+Digest: sha256:94a36185a4cdc75b9298302e3deb78f766aa9c2ac9a71ed32bef131841e538cf
+Status: Image is up to date for syword/python3-pytorch:2021.09
+docker.io/syword/python3-pytorch:2021.09
+Traceback (most recent call last):
+  File "/my-projects/Projects/PM25_Speices_DL_2023/code/Data_Processing/derive_TrainingDatasets/main.py", line 19, in <module>
+    get_save_nearest_indices(species=species)
+  File "/my-projects/Projects/PM25_Speices_DL_2023/code/Data_Processing/derive_TrainingDatasets/Convert_TrainingData_pkg/Assemble_Func.py", line 12, in get_save_nearest_indices
+    save_lat_lon_indices(species=species,lat_index=lat_index,lon_index=lon_index)
+  File "/my-projects/Projects/PM25_Speices_DL_2023/code/Data_Processing/derive_TrainingDatasets/Convert_TrainingData_pkg/iostream.py", line 41, in save_lat_lon_indices
+    os.makedir(outdir)
+AttributeError: module 'os' has no attribute 'makedir'
